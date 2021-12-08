@@ -4,8 +4,8 @@ const {WebhookClient} = require('dialogflow-fulfillment');
 const { default: axios } = require('axios');
 
 
-app.get("/", function(req, res){
-  res.send("chat gestión citas");
+app.get("/chat", function(req, res){
+  res.send("saludo");
 })
 
 app.post('/', express.json(), (req,res)=>{
